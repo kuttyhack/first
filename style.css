@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+}
+h2{
+    color: rgb(75, 160, 235);
+    margin: 10% 30%;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+.card{
+    width:150px;
+    height:200px;
+    background: url(angle.jpg)
+    center no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    transform:
+        rotate(15deg)
+        skew(-10deg,-5deg);
+    transition:
+        translate 0.25s,
+        box-shadow 0.25s;
+    margin: 25%;
+}
+.card:hover{
+    translate: 0 -30px;
+    box-shadow: 5px 3px rgb(228, 242, 248 / 25%),10px 7px rgb(114, 200, 235),15px 12px rgb(2, 183, 255);
+}
