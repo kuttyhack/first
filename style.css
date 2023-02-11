@@ -24,5 +24,5 @@ h2{
 }
 .card:hover{
     translate: 0 -30px;
-    box-shadow: 5px 3px rgb(228, 242, 248 / 25%),10px 7px rgb(114, 200, 235),15px 12px rgb(2, 183, 255);
+    box-shadow: 5px 3px rgb(228, 242, 248),10px 7px rgb(114, 200, 235),15px 12px rgb(2, 183, 255);
 }
